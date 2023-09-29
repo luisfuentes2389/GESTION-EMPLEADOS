@@ -10,7 +10,7 @@ const express = require('express');
 
 const router = express.Router();
 
-const empleadoCtrl = require('./controllers/empleado.controller');
+const empleadoCtrl = require('../controllers/empleado.controller');
 
 router.get('/', empleadoCtrl.getEmpleados); // Rutas más limpias (obtener empleados)
 

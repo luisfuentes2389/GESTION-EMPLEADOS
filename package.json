@@ -4,19 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon BackEnd/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisfuentes2389/GESTION-EMPLEADOS.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "mongoose": "^7.5.3",
-    "morgan": "^1.10.0",
-    "vue-loader": "^17.2.2"
+  "bugs": {
+    "url": "https://github.com/luisfuentes2389/GESTION-EMPLEADOS/issues"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+  "homepage": "https://github.com/luisfuentes2389/GESTION-EMPLEADOS#readme",
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }

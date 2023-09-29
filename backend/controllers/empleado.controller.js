@@ -3,7 +3,7 @@
  * se requiere primero el modelo empleado
  */
 
-const Empleado = require('../models/empleado');
+const Empleado = require('../models/empleados');
 const empleadoCtrl = {};
 
 /**
